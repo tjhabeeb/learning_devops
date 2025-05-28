@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#a new change
-
 #LIMITS 
 CPU_LIMIT=70
 RAM_LIMIT=70
