@@ -10,7 +10,7 @@ SYS_LOG_FILE=sys_health_monitor.log
 
 #TIMESTAMP
 DATE=date
-echo "+++ System Monitor Report - $date +++" >> "$SYS_LOG_FILE"
+echo "=== System Monitor Report - $date ===" >> "$SYS_LOG_FILE"
 
 #CPU_USAGE
 CPU_USAGE=top -bn1 | grep "Cpu(s)" | awk '{print 100 - $8}'

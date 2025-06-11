@@ -1,7 +1,21 @@
-System Health Monitoring Script
+# 🖥️ System Health Monitoring Script
 
-I created a simple monitoring script (monitor.sh) that keeps logs of system resources usage and sends an alert if usage exceeds thresholds.
+A simple and effective Bash script (`monitor.sh`) that monitors **CPU**, **RAM**, and **Disk usage**, logs system health, and sends alerts if resource usage exceeds specified thresholds.
 
-System resources : CPU, RAM, and Disk usage.
+---
 
-Log is kept in a timestamped file  “SYS_LOG_FILE”
+## 📌 Features
+
+- ✅ Monitors key system metrics:
+  - **CPU usage**
+  - **Memory (RAM) usage**
+  - **Disk space usage**
+- ✅ Logs output to a timestamped log file
+- ✅ Alerts user when usage exceeds threshold values
+
+---
+
+## 📂 Log File
+
+Each time the script runs, it logs the output to a timestamped log file
+
